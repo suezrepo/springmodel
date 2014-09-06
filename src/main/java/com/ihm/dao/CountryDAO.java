@@ -3,7 +3,7 @@ import com.ihm.model.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
-
+//test
 @Repository
 public interface CountryDAO extends JpaRepository<Country, Long>, JpaSpecificationExecutor<Country> {
 }
